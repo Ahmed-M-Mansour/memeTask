@@ -1,7 +1,15 @@
+/*
+I create  this function to call all of my functions
+ with the one click on the same time 
+*/  
 function changeText() 
 {
     Top();       bottom(); 
 }
+/*
+This function will handle the every thing about top text 
+like position it on the top or change the font size 
+*/
 function Top()
 {
     var topText = document.getElementById('topText').value ;
@@ -21,6 +29,10 @@ function Top()
           pTopText.style.fontSize= "10px" ; 
        }
 }
+/*
+This function will handle the every thing about bottom text 
+like position it on the bottom or change the font size 
+*/
 function bottom()
 {
     var BottomText = document.getElementById('BottomText').value ; 

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Memes App Generator </title>
+    <!-- the External style of the page -->
+    <link rel="stylesheet" href="memes.css">
+</head>
+
+<body>
+    <!-- i put all content in this section -->
+    <section class="all">
+        <!-- The first section of the app  (inputs section )-->
+        <div>
+            <!-- This is the top text input  -->
+            <div class="text">
+                <label> Top Text </label>
+                <input type="text" value="Top" id="topText">
+            </div>
+             <!-- This is the bottom text input  -->
+            <div class="text">
+                <label> Bottom Text </label>
+                <input type="text" value="Bottom" id="BottomText">
+            </div>
+            <button onclick="changeText() "> Generate </button>
+        </div>
+<!-- --------------- The second section of the app (meme section )----------------------------->
+        <div class="meme" id="meme">
+            <p id="topMeme"> </p>  <!-- The top text on the meme -->
+            <p id="bMeme"></p>     <!-- The bottom text on the meme -->
+            <img src="images/cat1.jpg" alt="meme"> <!-- The meme -->
+        </div>
+
+    </section>
+    <script src="memes..js"></script>
+</body>
+
+</html>
